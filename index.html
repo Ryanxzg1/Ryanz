@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      /* CSS untuk artikel */
+      .artikel {
+          margin-bottom: 30px;
+      }
+
+      .artikel h3 {
+          margin-top: 0;
+      }
+
+      .artikel p {
+          text-align: justify;
+      }
+    </style>
+    <style>
+        /* CSS untuk styling artikel */
+        .artikel-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+        
+        .artikel-card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .artikel-card img {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+            height: 200px; /* Atur tinggi gambar */
+            object-fit: cover; /* Pastikan gambar ter-cover dengan baik */
+        }
+        
+        .artikel-body {
+            padding: 20px;
+        }
+        
+        .artikel-body h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .artikel-body p {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        
+        .artikel-card .btn {
+            display: block;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="#home" class="navbar-brand page-scroll">Ryan</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="page-scroll">About</a></li>
+                    <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+                    <li><a href="#artikel" class="page-scroll">Article</a></li>
+                    <li><a href="#contact" class="page-scroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <img src="img/bg-ryan.jpg" class="img-circle img-thumbnail">
+        <h2>Ryan Rafif</h2>
+        <p>Like Mathematics | I Am Front-End Dev | I Am 17 y'o</p>
+    </div>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">About</h2>
+                    <hr class="custom-hr">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 col-sm-offset-1 about-text">
+                    <p>Halo! Saya Ryan Rafif Nur Rahman, Saya sekarang berumur 17 Tahun. Sejak kecil, saya selalu kagum dengan tampilan website yang interaktif dan bagaimana sebuah website bisa diakses dari berbagai belahan dunia. Rasa ingin tahu itulah yang mendorong saya untuk mendalami dunia Front-End Web Development karena saya menyukai perpaduan antara desain visual dan logika pemrograman. Saat ini, saya sedang menempuh pendidikan di SMK N 2 KLATEN jurusan SIJA (Sistem Informasi Jaringan dan Aplikasi), setelah sebelumnya menimba ilmu di SD N 1 SENDEN dan SMP N 4 KLATEN.
+                    </p>
+                    <p> Saya memiliki sifat yang teliti, analitis, dan mandiri. Misalnya, saat mengerjakan proyek, 
+                        saya selalu memastikan kode yang saya tulis rapi, efisien, dan mudah dipahami. 
+                        Saya juga terbiasa mencari solusi secara mandiri ketika menghadapi kendala. 
+                        Saya percaya bahwa kemandirian dan ketekunan adalah kunci untuk mencapai kesuksesan, 
+                        prinsip inilah yang memotivasi saya untuk menguasai berbagai skill yang dibutuhkan.  
+                        
+                    </p>
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 about-text">
+                    <p>
+                        Saat ini, saya telah menguasai HTML, CSS, dan Bootstrap 3, yang saya gunakan untuk membangun beberapa website statis, 
+                        termasuk yang ada pada repository <a href="https://github.com/Ryanxzg1/">GitHub</a> saya. 
+                        Saya juga memahami konsep responsive design dan mampu mengimplementasikan fitur-fitur dasar website. 
+                        Namun, saya tidak berhenti di situ. Saya juga sedang mendalami JavaScript dan Bootstrap 5 untuk meningkatkan 
+                        kemampuan saya dalam menciptakan user interface yang menarik dan interaktif.
+                    </p>
+                    <p>Saya bertekad untuk terus mengembangkan keahlian saya dan berkontribusi dalam pengembangan web yang inovatif dan user-friendly, dengan fokus pada pengalaman pengguna yang optimal.
+                    </p>
+                    <p>
+                        Cita-cita saya adalah menjadi seorang Front-End Web Developer yang handal 
+                        dan mampu menciptakan interface yang intuitif, responsive, dan mudah dinavigasi di berbagai perangkat. 
+                        Saya bersemangat untuk terus belajar, berkembang, dan berkontribusi di dunia teknologi yang dinamis ini. 
+                        Saya juga terbuka untuk belajar hal-hal baru dan berkolaborasi dalam proyek-proyek yang menantang. 
+                        Mari terhubung melalui <a href="https://www.linkedin.com/in/ryan-rafif-nur-rahman-2721b0305/">LinkedIn</a> saya atau 
+                        portfolio online saya di <a href="https://github.com/Ryanxzg1/">GitHub</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="custom-hr">
+                    <h3>Berikut Website yang pernah saya buat</h3>
+                    <br><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/portofolio/pp1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/portofolio/pp2.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/portofolio/pp7.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/portofolio/ppp4.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/portofolio/pp8.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                        <img src="img/portofolio/pp9.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="artikel" id="artikel">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Article</h2>
+                    <hr class="custom-hr">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="artikel-card">
+                        <img src="img/artikel/artikel-1.png" alt="Tren Front-End" class="img-responsive">
+                        <div class="artikel-body">
+                            <h3>Apa Saja Tren Baru di Lingkungan Frontend Developer 2024?</h3>
+                            <p>Tren perkembangan di lingkungan front-end development berubah dengan sangat cepat sehingga untuk mengikuti perkembangan secara terus-menerus mungkin menjadi hal yang sulit bagi pengembang front-end. Namun, tren pada lingkungan front-end development ini memainkan peran yang signifikan dalam meningkatkan kualitas sebuah web.</p>
+                            <a href=https://class.buildwithangga.com/tips/apa-saja-tren-baru-di-lingkungan-frontend-developer-2024" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="artikel-card">
+                        <img src="img/artikel/artikel-2.png" alt="Tutorial Bootstrap" class="img-responsive">
+                        <div class="artikel-body">
+                            <h3>Tutorial Belajar Membuat Navigasi Bar Rasponsive Dengan Bootstrap 4</h3>
+                            <p>
+                                Navbar website sangat penting karena mempermudah navigasi. Penempatan dan responsivitas yang baik pada navbar meningkatkan kemudahan pengunjung dalam menemukan konten. Navbar yang efektif membantu pengguna menjelajahi situs dengan intuitif, sehingga meningkatkan pengalaman dan interaksi pengguna secara keseluruhan pada website yang dikunjungi.                            </p>
+                            <a href="https://ilmuweb.net/tutorial-belajar-membuat-navigasi-bar-rasponsive-dengan-bootstrap-4/" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="artikel-card">
+                        <img src="img/artikel/artikel-3.png" alt="Proyek E-commerce" class="img-responsive">
+                        <div class="artikel-body">
+                            <h3>Pengembangan situs web e-commerce: langkah demi langkah</h3>
+                            <p>
+                                Dalam mengembangkan situs e-commerce, Pertama, rencanakan konsep dan target pasar. Kedua, pilih platform dan desain tampilan yang menarik. Ketiga, atur produk, kategori, dan sistem pembayaran yang aman. Keempat, kelola konten, optimalkan SEO, dan lakukan pemasaran. Terakhir, pantau performa, lakukan pemeliharaan, dan perbarui secara berkala.                           
+                            </p>
+
+                            <a href="https://nextbasket.com/id-id/pengembangan-situs-web-e-commerce-langkah-demi-langkah/" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Contact</h2>
+                    <hr class="custom-hr">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Masukkan Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Telepon</label>
+                            <input type="tel" id="telp" class="form-control" placeholder="Masukkan Telepon">
+                        </div>
+                        <div class="form-group">
+                          <label for="kategori">Siapa Dirimu?</label>
+                          <select class="form-control" id="kategori">
+                              <option>-- Pilih Kategori --</option>
+                              <option>Web Design</option>
+                              <option>Programmer</option>
+                              <option>Back-End Developer</option>
+                              <option>Tidak Ada</option>
+                          </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea class="form-control" rows="8" id="pesan" placeholder="Masukkan Pesan"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&copy; Copyright 2023 | Built With <i class="glyphicon glyphicon-heart"></i> By <a href="https://www.instagram.com/ryan_bmk08/">Rynz_XIISIJAB</a>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://www.instagram.com/ryan_bmk08/" class="btn btn-primary"><i class="glyphicon glyphicon-hand-right"></i> Follow My Account </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://www.linkedin.com/in/ryan-rafif-nur-rahman-2721b0305/" class="btn btn-primary"><i class="glyphicon glyphicon-hand-right"></i> See My LinkedIn </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
